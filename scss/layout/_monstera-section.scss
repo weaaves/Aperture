@@ -1,0 +1,19 @@
+.monstera-section {
+    background-image: url('../img/monstera-section-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__title {
+        color: var(--color-secondary-light);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-top: 255px;
+        margin-bottom: 5px;
+        text-align: right;
+    }
+
+    &__text {
+        text-align: right;
+        margin-bottom: 202px;
+    }
+}

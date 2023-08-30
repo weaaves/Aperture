@@ -1,0 +1,21 @@
+@import './base/reset';
+@import './base';
+@import './base/fonts';
+@import './utils/variables';
+@import './base/container';
+@import './components/parameters';
+@import './components/links';
+@import './components/buttons';
+
+@import './components/sections';
+@import './layout/header';
+@import './layout/hero-section';
+@import './layout/business-section';
+@import './layout/gear-section';
+@import './layout/tools-section';
+@import './layout/monstera-section';
+@import './layout/client-section';
+@import './layout/starfall-section';
+@import './layout/contact-section';
+@import './components/social-icons';
+@import './layout/footer';

@@ -1,0 +1,37 @@
+.header {
+    padding: 30px 0;
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 32px;
+    }
+    
+    &__link {
+        flex-basis: 45%;
+    }
+
+    &__button {
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        background-color: var(--color-secondary-light);
+        border: 1px solid transparent;
+        border-radius: 14px;
+        padding: 10px 20px;
+        margin-left: 20px;
+        transition: background-color 0.2s, border 0.2s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--color-secondary-hover);
+            border: 1px solid transparent;
+        }
+    }
+
+}

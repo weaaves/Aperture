@@ -1,0 +1,24 @@
+.tools-section {
+    background-image: url('../img/tools-section-photo.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-top: 170px;
+
+    &__uppertitle {
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+    }
+
+    &__title {
+        font-size: 28px;
+        line-height: 1.1;
+        color: var(--color-secondary-light);
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        max-width: 514px;
+        margin-bottom: 28px;
+    }
+}
